@@ -33,12 +33,12 @@ layers:
   - .
   - /
   - ''
-  - ''
-  - LEFT GUI
+  - '-'
+  - BACKSPACE
   - {t: ENTER, h: symbols}
   - {t: SPACE, h: navigation}
-  - ''
-  - ''
+  - ESCAPE
+  - '='
   symbols:
   - '!'
   - '@'
@@ -169,3 +169,7 @@ combos:
   k: '&caps_word'
 - p: [34, 35]
   k: function
+- p: [27, 28]
+  k: '-'
+- p: [29, 30]
+  k: '='
