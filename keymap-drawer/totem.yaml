@@ -34,10 +34,10 @@ layers:
   - /
   - ''
   - '-'
-  - BACKSPACE
+  - ESCAPE
   - {t: ENTER, h: symbols}
   - {t: SPACE, h: navigation}
-  - ESCAPE
+  - BACKSPACE
   - '='
   symbols:
   - '!'
