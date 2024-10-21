@@ -157,19 +157,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [10, 11]
-  k: ESC
 - p: [12, 13]
   k: TAB
-- p: [16, 17]
-  k: BACKSPACE
 - p: [18, 19]
   k: ''''
 - p: [13, 16]
   k: '&caps_word'
 - p: [34, 35]
   k: function
-- p: [27, 28]
-  k: '-'
-- p: [29, 30]
-  k: '='
