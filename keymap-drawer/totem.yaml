@@ -44,7 +44,7 @@ layers:
   - '@'
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - '|'
   - '='
   - KP 7
   - KP 8
@@ -54,7 +54,7 @@ layers:
   - $
   - (
   - )
-  - {t: ▽, type: trans}
+  - '`'
   - '-'
   - KP 4
   - KP 5
@@ -65,7 +65,7 @@ layers:
   - ^
   - '['
   - ']'
-  - {t: ▽, type: trans}
+  - '~'
   - '&'
   - KP 1
   - KP 2
