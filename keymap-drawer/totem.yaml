@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: totem}
 layers:
-  base:
+  BASE:
   - Q
   - W
   - E
@@ -35,11 +35,50 @@ layers:
   - ''
   - '-'
   - ESCAPE
-  - {t: ENTER, h: symbols}
-  - {t: SPACE, h: navigation}
-  - BACKSPACE
+  - {t: ENTER, h: SYM}
+  - {t: SPACE, h: NAV}
+  - {t: BACKSPACE, h: FUN}
   - '='
-  symbols:
+  gaming:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - A
+  - S
+  - D
+  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+ LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM:
   - '!'
   - '@'
   - '{'
@@ -78,7 +117,7 @@ layers:
   - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  navigation:
+  NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -117,7 +156,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  function:
+  FUN:
   - '&sys_reset'
   - BT CLR
   - {t: BT, h: '0'}
@@ -152,9 +191,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [12, 13]
@@ -164,4 +203,5 @@ combos:
 - p: [13, 16]
   k: '&caps_word'
 - p: [34, 35]
-  k: function
+  k: {t: gaming, h: toggle}
+  l: [BASE, gaming]
