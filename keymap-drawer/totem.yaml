@@ -34,10 +34,10 @@ layers:
   - /
   - ''
   - '-'
-  - ESCAPE
+  - {t: ESC, h: FUN}
   - {t: ENTER, h: SYM}
   - {t: SPACE, h: NAV}
-  - {t: BACKSPACE, h: FUN}
+  - BACKSPACE
   - '='
   gaming:
   - {t: ▽, type: trans}
@@ -190,10 +190,10 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [12, 13]
