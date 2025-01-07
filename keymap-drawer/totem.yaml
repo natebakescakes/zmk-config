@@ -22,10 +22,10 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RGUI}
   - ''
-  - {t: Z, h: LEFT GUI}
-  - {t: X, h: LEFT ALT}
-  - {t: C, h: LEFT CONTROL}
-  - {t: V, h: LEFT SHIFT}
+  - Z
+  - X
+  - C
+  - V
   - B
   - N
   - M
@@ -60,11 +60,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ LEFT SHIFT
-  - Z
-  - X
-  - C
-  - V
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,6 +70,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: LEFT ALT}
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
