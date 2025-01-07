@@ -34,9 +34,9 @@ layers:
   - /
   - ''
   - '-'
-  - '&ltl 4 ESC'
-  - '&ltl 2 ENTER'
-  - '&ltr 3 SPACE'
+  - {t: ESC, h: FUN}
+  - {t: ENTER, h: SYM}
+  - {t: SPACE, h: NAV}
   - BACKSPACE
   - '='
   gaming:
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -153,7 +153,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
@@ -190,7 +190,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
