@@ -33,9 +33,9 @@ layers:
   - .
   - /
   - ''
-  - '-'
-  - {t: ESC, h: FUN}
-  - {t: ENTER, h: SYM}
+  - {t: '-', h: FUN}
+  - {t: ESC, h: SYM}
+  - ENTER
   - {t: SPACE, h: NAV}
   - BACKSPACE
   - '='
@@ -112,8 +112,8 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -189,8 +189,8 @@ layers:
   - F3
   - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
